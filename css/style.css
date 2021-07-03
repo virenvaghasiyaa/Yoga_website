@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    padding: 0 45px;
+}
+
+/*----------- Navbar -----------*/
+
+.divide-line-b{
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+}
+.icon-green{
+    font-size: 1.25rem;
+    color: #4FCE5D;
+}
+.btn-login{
+    background-color: #fff4ed;
+    color: #e56f6f;
+    transition: .6s all ease;
+}
+.btn-login:hover{
+    background-color: #e56f6f;
+    color: #fff4ed;
+}
+
+/*----------- Home-slider -----------*/
+.rel{
+    position: relative;
+}
+.bg-cover{
+    background-size: cover;
+}
+.text-y-center{
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-rz{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/*------------- Services ----------*/
+
+.py-5rem{
+    padding: 5rem 0 3rem 0;
+}
+.c-orange{
+    color: #ff893b;
+}
+.icon-40{
+    font-size: 2.5rem;
+}
+
+/*------------- Book-Now ----------*/
+
+.py-0-75{
+    padding: 0.75rem;
+}
+.book-now{
+    border: 2px solid #ececec;
+    padding: 20px;
+}
+.book-now>h1{
+    margin: 0 0 15px 0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.ft-b{
+    font-weight: bold;
+}
+.ft-1{
+    font-size: 1rem;
+}
+.btn-2{
+    background-color: #ff893b;
+    color: #fff;
+    width: 100%;
+    transition: 0.6s all ease;
+    border: none;
+}
+.btn-2:hover{
+    background-color: #c56c30;
+    color: #fff;
+}
+
+/*---- Top-tiers-teachers-slider ----*/
+
+.bg-color-light{
+    background-color: #fafafa;
+}
+.para-p1{
+    padding: 4.5rem 0 2rem 0;
+}
+.para-m1{
+    margin: 0 6.5rem 1.5rem;
+}
+.para-m2{
+    margin: 0 6.5rem;
+}
+.br-50{
+    border-radius: 50%;
+}
+.icon-red{
+    color: red;
+    font-size: 1.25rem;
+    margin-right: 15px;
+}
+.txt-right{
+    text-align: right;
+}
+
+/*-------------- slider -------------*/
+
+.color-v50{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*------------- Message-box ----------*/
+
+.bg-img1{
+    background-image: url(../img/teacher3.jpeg);
+    background-color: rgba(255, 255, 255, 0.45);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.txt-area{
+    min-height: 9rem;
+}
+.ft-1-75{
+    font-size: 1.75rem;
+}
+.ft-c1{
+    color: #757575;
+}
+/*------------ Yoga-Founder ----------*/
+
+.bg-size-1{
+    width: 35rem;
+    height: 28rem;
+}
+
+/*---------- Purchase-pack ---------*/
+
+.bg-img2{
+    background-image: url(../img/yoga4.jpeg);
+    background-color: rgba(255, 255, 255, 0.45);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.txt-sm{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.9rem;
+}
+
+/*---------- Class-pack ---------*/
+
+.btn-1{
+    background-color: white;
+    color: #ff893b;
+    border: 1px solid #ff893b;
+    transition: 0.6s all ease;
+    padding: .75rem .75rem !important;
+}
+.btn-1:hover{
+    background-color: #ff893b;
+    color: #fff;
+}
+
+/*-------- Frequently-ask-QAN -------*/
+
+.b-n{
+    border: none;
+    border-radius: 0 !important;
+}
+.bg-n{
+    background: none;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.t-n{
+    text-decoration: none !important;
+}
+.cr-b{
+    font-size: 1.25rem;
+    color: black;
+}
+.btn-link:hover{
+    color: black !important;
+}
+
+/*---------- Footer ---------*/
+
+.bg-gray{
+    background-color: #555555;
+}
+.divide-line-w{
+    border-left: 2px solid rgba(255, 255, 255, 0.3);
+}
+.icon-gray{
+    color: #a2a2a2; 
+    font-size: 20px;
+}
+
+
+@media(max-width:1024px){
+    .text-y-center{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 768px){
+    .txt-center{
+        text-align: center;
+    }
+    .para-m1{
+        margin: 0 0 1rem 0;
+    }
+    .para-m2{
+        margin: 0;
+    }
+}
+
+@media(max-width: 600px){
+    .text-y-center{
+        font-size: 1.3rem;
+    }
+}
+@media(width: 600px){
+    .text-y-center{
+        top: 36% !important;
+    }
+}
+@media(max-width: 480px){
+    .text-y-center{
+        display: none;
+    }
+}
+@media(min-width: 600px) and (max-width: 768px){
+    .text-y-center{
+        top: 40%;
+    }
+}
+@media(min-width:480px) and (max-width:600px){
+    .text-y-center{
+        top: 50%;
+    }
+}
