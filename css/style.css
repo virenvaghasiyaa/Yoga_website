@@ -196,7 +196,13 @@
 .btn-link:hover{
     color: black !important;
 }
-
+.px-3r{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.wrap{
+    white-space: normal !important;
+}
 /*---------- Footer ---------*/
 
 .bg-gray{
@@ -252,5 +258,15 @@
 @media(min-width:480px) and (max-width:600px){
     .text-y-center{
         top: 50%;
+    }
+    .px-0r{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+@media(min-width:320px) and (max-width:480px){
+    .px-0r{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
